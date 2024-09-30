@@ -1,0 +1,14 @@
+site:
+  title: "Datetime Module Notfound"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/kotlin-webpack/js/developmentExecutable/datetimemodulenotfound.js"
+      api: "build/libs/datetimemodulenotfound.jar"
+    prod:
+      script: "build/kotlin-webpack/js/productionExecutable/datetimemodulenotfound.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
